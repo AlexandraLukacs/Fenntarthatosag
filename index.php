@@ -18,13 +18,13 @@
 	<div id="tartalom">
 	    <div id="bal">
             <?php
-            echo "<h2>A fenntarthatóság szintjei</h2>";
             echo "<div><img src='fenntart.png' alt='Fenntarthatóság szintjei'></div>";
             ?>
         </div>
         <div id="jobb">
             <ul>
                 <?php
+                echo "<h2>A fenntarthatóság szintjei</h2>";
                 echo "<li>$elsoSzint</li>";
                 echo "<li>$masodikSzint</li>";
                 echo "<li>$harmadikSzint</li>";
@@ -80,7 +80,7 @@
     $megUjAr = array("EU-átlag"=>"20", "Belgium"=>"13", "Bulgária"=>"16", "Dánia"=>"30", 
     "Németorazág"=>"18", "Észtország"=>"25", "Finnország"=>"36");
 
-    echo "<table>";
+    /*echo "<table>";
 		echo "<tr>";
 		echo "<th>Ország</th><th> Eu-cél 2020</th>";
 		echo "</tr>";
@@ -90,7 +90,8 @@
 			echo "<td>$megUjAr[$index]</td><td>$megUjAr[$index]</td>";
 			echo "</tr>";
 	    }
-		echo "</table>";
+		echo "</table>";*/
     ?>
+    <a href="kuka.php">Kuka</a>
 </body>
 </html>
